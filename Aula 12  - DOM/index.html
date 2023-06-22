@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/toggle_button.css">
+
+  <title>Cards</title>
+</head>
+
+<body>
+
+  <header class="cabecalho">
+    <div class="botao_cabecalho">
+      <label class="switch">
+        <input type="checkbox" id="botao_cabecalho_tema">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container_cabecalho container-fluid">
+          <div>
+            <a class="navbar-brand" href="#"><img class="logo" src="./img/logo_principal.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="lista navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="cadastar">
+                <a class="nav-link "  href="form_adotar.html">Cadastre - se</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre Nos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cards">Pets</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="banner">
+   
+      <div class="texto">
+        <h5 class="banner-title">Seu melhor amigo está aqui!</h5>
+        <p class="banner-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, neque exercitationem deserunt pariatur repudiandae velit in alias cum consequuntur unde odit, dicta perspiciatis nam quod eveniet molestiae rerum sapiente dolore?.</p>
+        <a href="form_adotar.html" class="banner-button"><button>Venha adotar seu pet</button></a>
+      </div>
+      <div class="img">
+        <img src="./img/banner1.png" class="banner-img" alt="...">
+      </div>
+    </div>
+  </section>
+  
+  <div id="cards" class="container">
+
+  </div>
+
+  <script src="./js/script.js"></script>
+  <script src="./js/tema.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+
+<footer id="footer">
+  <div class="footer-white">
+    <footer>
+      <div class="container">
+        <div class="row container-teste  ">
+          <div class="col-sm-6 col-md-3 item">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">Hosting</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 item">
+            <h3>About</h3>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 item text">
+            <h3>Company Name</h3>
+            <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus
+              elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+          </div>
+          <div class="col item social">
+
+          </div>
+        </div>
+        <p class="copyright">Company Name © 2023</p>
+      </div>
+    </footer>
+  </div>
+</footer>
+</body>
+</html>
