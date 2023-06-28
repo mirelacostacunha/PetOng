@@ -52,8 +52,7 @@ const criacaoPosts = () => {
                 <img class="card-img" src=${post.imgURL} /> 
                 <h2 class="card-titulo"> ${post.titulo} </h2>
                 <p class="card-descricao"> ${post.descricao} </p>
-                <a href="form_adotar.html" class="card-button"><button>ADOTAR</button></a>
-               
+                <a href="form_adotar.html" ><button class="card-button">ADOTAR</button></a>               
                
             </div>
         `;
